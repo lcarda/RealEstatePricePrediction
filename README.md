@@ -15,7 +15,7 @@ Los datos utilizados provienen de anuncios clasificados de la plataforma Propera
 ### Propósito
 El objetivo principal es desarrollar un modelo que asista a agentes inmobiliarios, compradores y vendedores al proporcionar una clasificación y predicción de precios precisa, basada en datos históricos y características detalladas de cada propiedad.
 
-####English
+#### English
 
 ### Description  
 This project, developed as a final assignment for the Data Science course, focuses on the prediction and classification of real estate prices in Argentina. The classification determines whether a property's price, whether for purchase or sale, should be considered "low," "medium," or "high" based on its characteristics. This approach is adaptable and allows working with different price ranges according to the user's needs. Initially, three categories were utilized.
