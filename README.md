@@ -1,54 +1,33 @@
 # RealEstatePricePrediction
 
+### Descripción
+Este proyecto, desarrollado como trabajo final para la materia de Ciencia de Datos, se centra en la predicción y clasificación de precios de inmuebles en Argentina. La clasificación determina si el precio de una propiedad, ya sea para compra o venta, debe considerarse como "bajo", "medio" o "alto" según sus características. Este enfoque es adaptable y permite trabajar con diferentes intervalos de precios según las necesidades del usuario. Inicialmente, se trabajó con tres categorías.
 
-### Resumen
-RealEstatePricePrediction es un proyecto de análisis de datos y predicción centrado en la tasación de inmuebles en Argentina. Utiliza anuncios clasificados de Properati, obtenidos del [dataset de Kaggle](https://www.kaggle.com/datasets/tomasaccini/propiedadesproperati). La valuación inmobiliaria es un tema crucial para agentes y compradores potenciales, y este proyecto busca predecir precios de propiedades basándose en sus características. Los datos abarcan desde 2013 hasta 2017, ofreciendo una perspectiva única sobre el mercado sudamericano.
+Los datos utilizados provienen de anuncios clasificados de la plataforma Properati, accedidos a través de un conjunto de datos histórico disponible en [Kaggle](https://www.kaggle.com/datasets/tomasaccini/propiedadesproperati). Este dataset abarca el periodo de 2013 a 2017, ofreciendo una perspectiva única del mercado inmobiliario sudamericano.
 
-### Características
-- **Limpieza de datos**: Eliminación de datos irrelevantes o incompletos para garantizar un análisis sólido.
-- **Visualizaciones**: Representaciones gráficas para identificar tendencias y correlaciones.
-- **Modelado predictivo**: Uso de aprendizaje automático para estimar precios de propiedades en USD.
-- **Enfoque en Argentina**: Dinámica del mercado inmobiliario argentino.
+### Características del Proyecto
 
-### Tecnologías Utilizadas
-- Librerías de Python: `pandas`, `matplotlib`, `seaborn`, `numpy`, `math`, `missingno`
-- Jupyter Notebook para el desarrollo y documentación
+- **Limpieza de Datos**: Se llevaron a cabo procesos exhaustivos para eliminar datos irrelevantes o incompletos, garantizando un análisis confiable y preciso.
+- **Visualizaciones**: Se generaron gráficos que permiten identificar tendencias y correlaciones clave dentro del mercado inmobiliario.
+- **Modelado Predictivo**: Utilizamos técnicas de aprendizaje automático para predecir precios de propiedades en USD con base en las características del inmueble.
+- **Enfoque Geográfico**: El proyecto se concentra exclusivamente en el mercado inmobiliario de Argentina, proporcionando insights útiles para agentes y compradores locales.
 
-### Instalación
-1. Clona este repositorio:
-    ```bash
-    git clone https://github.com/lcarda/RealEstatePricePrediction.git
-    ```
-2. Navega al directorio del proyecto:
-    ```bash
-    cd RealEstatePricePrediction
-    ```
-3. Instala las librerías necesarias:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### Propósito
+El objetivo principal es desarrollar un modelo que asista a agentes inmobiliarios, compradores y vendedores al proporcionar una clasificación y predicción de precios precisa, basada en datos históricos y características detalladas de cada propiedad.
 
-### Uso
-1. Abre el archivo `RealEstatePricePrediction.ipynb` en Jupyter Notebook.
-2. Sigue el notebook para:
-   - Explorar el conjunto de datos.
-   - Visualizar relaciones entre características de las propiedades y sus precios.
-   - Entrenar y evaluar modelos predictivos.
-3. Ajusta parámetros y características según sea necesario para mejorar las predicciones.
+####English
 
-### Cómo Contribuir
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tu función:
-    ```bash
-    git checkout -b nombre-de-la-funcion
-    ```
-3. Haz commit de tus cambios y empújalos a tu fork:
-    ```bash
-    git commit -m "Descripción de tus cambios"
-    git push origin nombre-de-la-funcion
-    ```
-4. Abre un pull request para proponer tus cambios.
+### Description  
+This project, developed as a final assignment for the Data Science course, focuses on the prediction and classification of real estate prices in Argentina. The classification determines whether a property's price, whether for purchase or sale, should be considered "low," "medium," or "high" based on its characteristics. This approach is adaptable and allows working with different price ranges according to the user's needs. Initially, three categories were utilized.
 
-### Agradecimientos
-- El conjunto de datos fue obtenido de [Kaggle](https://www.kaggle.com/datasets/tomasaccini/propiedadesproperati).
+The data used comes from classified ads on the Properati platform, accessed through a historical dataset available on [Kaggle](https://www.kaggle.com/datasets/tomasaccini/propiedadesproperati). This dataset covers the period from 2013 to 2017, offering a unique perspective on the South American real estate market.
 
+### Project Features  
+
+- **Data Cleaning**: Comprehensive processes were conducted to remove irrelevant or incomplete data, ensuring reliable and accurate analysis.  
+- **Visualizations**: Graphs were generated to identify key trends and correlations within the real estate market.  
+- **Predictive Modeling**: Machine learning techniques were applied to predict property prices in USD based on the property's features.  
+- **Geographical Focus**: The project exclusively concentrates on the Argentinian real estate market, providing valuable insights for local agents and buyers.  
+
+### Purpose  
+The primary goal is to develop a model that assists real estate agents, buyers, and sellers by offering accurate price classification and prediction, leveraging historical data and detailed property features.
